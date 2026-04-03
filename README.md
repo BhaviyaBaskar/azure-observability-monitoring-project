@@ -1,7 +1,7 @@
 ## 📸 Screenshots
 
 ### Azure Dashboard
-![Azure Dashboard](5-azure-dashboard/screenshots/Azure-Dashboard.png)
+![Azure Dashboard](azure-dashboard/Azure-Dashboard.png)
 
 ### Grafana Dashboard
-![Grafana Dashboard](7-grafana/screenshots/Grafana-Dashboard.png)
+![Grafana Dashboard](grafana/Grafana-Dashboard.png)
