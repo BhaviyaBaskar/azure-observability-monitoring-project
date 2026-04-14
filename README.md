@@ -9,6 +9,7 @@ lifecycle from log ingestion to real-time dashboards and automated alerting.
 ## 🔍 Overview
 
 This project simulates a real-world production monitoring environment. 
+This project demonstrates core Site Reliability Engineering (SRE) practices including observability, monitoring, and incident detection.
 A Python script generates application logs simulating realistic 
 traffic — with randomized success/error statuses, response times, and error 
 counts — and sends them directly to **Azure Log Analytics** via the HTTP 
@@ -93,8 +94,8 @@ Email Notification
 
 | Alert Name | Condition | Signal Type | Status |
 |---|---|---|---|
-| High Error Rate Alert | Table rows > 5 | KQL Log Search | Enabled |
-| High Latency Alert | Table rows > 500 | KQL Log Search | Enabled |
+| High Error Rate Alert | ErrorRate > 5% | KQL Log Search | Enabled |
+| High Latency Alert | AvgResponseTime > 500 ms | KQL Log Search | Enabled |
 
 ---
 
